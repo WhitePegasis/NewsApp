@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Amazinfo</string>
     <string name="api_key">3449d1852ec14feea0b8216eca16e60f</string>
+    <string name="instaLink">To know about app creator click here: <a href="https://www.instagram.com/white_pegasus_/" >App Creator</a></string>
 </resources>

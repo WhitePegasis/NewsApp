@@ -32,7 +32,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:elevation="3dp">
+                android:elevation="3dp"
+                android:backgroundTint="#CDE4F3">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -78,10 +79,19 @@
             <TextView
                 android:id="@+id/newsContent"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="News content"
                 android:textSize="20sp"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/instaLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/instaLink"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:padding="15dp">
+            </TextView>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
